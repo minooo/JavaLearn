@@ -7,7 +7,7 @@ public class CatTest {
         // 测试
         one.eat();
         one.run();
-        one.name = "花花";
+        one.name = "凡凡";
         one.age = 2;
         one.weight = 1000;
         one.species = "中华田园猫";
