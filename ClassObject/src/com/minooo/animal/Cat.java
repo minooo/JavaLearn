@@ -7,6 +7,10 @@ public class Cat {
     double weight;
     String species;
 
+    public Cat() {
+
+    }
+
     public Cat(String name, int age, double weight, String species) {
         this.name = name;
         this.age = age;
@@ -20,7 +24,7 @@ public class Cat {
         System.out.println("小猫快跑");
     }
 
-    public void run(String name){
+    public void run1(){
         System.out.println(name + "快跑");
     }
 
