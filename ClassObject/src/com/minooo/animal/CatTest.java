@@ -17,8 +17,17 @@ package com.minooo.animal;
 
 public class CatTest {
     public static void main(String[] args) {
-        Cat one = new Cat(3);
-        System.out.println(one.getAge());
+        Cat one = new Cat();
+        one.setName("可");
+
+        Cat.price = 300;
+        Cat two = new Cat();
+        two.setName("否");
+        Cat.price = 200;
+
+
+        System.out.println(one.price);
+        System.out.println(two.price);
 
 //        one.setName("花花");
 //        System.out.println(one.getName());

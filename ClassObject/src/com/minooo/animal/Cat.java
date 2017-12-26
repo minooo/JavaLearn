@@ -41,10 +41,12 @@ public class Cat {
     private double weight;
     private String species;
 
-    public Cat(int month) {
-        //this.age = month;
-        this.setAge(month);
-    }
+    public static int price;
+
+//    public Cat(int month) {
+//        //this.age = month;
+//        // this.setAge(month);
+//    }
 
     // 创建 get/set 方法
     public void setName(String name) {
